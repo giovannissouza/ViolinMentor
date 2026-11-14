@@ -1,0 +1,77 @@
+REPERTOIRE_LEVELS = ("Iniciante", "Intermediário", "Avançado")
+REPERTOIRE_STATUSES = ("Não iniciada", "Estudando", "Concluída")
+
+REPERTOIRE_CATALOG = [
+    {
+        "id": "ode-a-alegria",
+        "title": "Ode à Alegria",
+        "composer": "Ludwig van Beethoven",
+        "level": "Iniciante",
+        "bpm": 76,
+        "description": "Melodia conhecida para praticar ritmo, articulação e leitura.",
+    },
+    {
+        "id": "minueto-em-sol",
+        "title": "Minueto em Sol maior",
+        "composer": "Christian Petzold",
+        "level": "Iniciante",
+        "bpm": 84,
+        "description": "Peça de estudo em frases curtas; comece com arco lento e regular.",
+    },
+    {
+        "id": "long-long-ago",
+        "title": "Long, Long Ago",
+        "composer": "Thomas H. Bayly",
+        "level": "Iniciante",
+        "bpm": 68,
+        "description": "Canção simples para trabalhar pulsação e mudanças de corda.",
+    },
+    {
+        "id": "primavera-vivaldi",
+        "title": "A Primavera — tema do 1º movimento",
+        "composer": "Antonio Vivaldi",
+        "level": "Intermediário",
+        "bpm": 104,
+        "description": "Estude o tema em trechos, aumentando o andamento gradualmente.",
+    },
+    {
+        "id": "concerto-la-menor",
+        "title": "Concerto em Lá menor, RV 356",
+        "composer": "Antonio Vivaldi",
+        "level": "Intermediário",
+        "bpm": 92,
+        "description": "Concerto para desenvolver articulação, escalas e controle do arco.",
+    },
+    {
+        "id": "hallelujah",
+        "title": "Hallelujah",
+        "composer": "Leonard Cohen",
+        "level": "Intermediário",
+        "bpm": 72,
+        "description": "Arranjo melódico popular; adapte a tonalidade à sua região confortável.",
+    },
+    {
+        "id": "chaconne",
+        "title": "Chaconne — Partita nº 2, BWV 1004",
+        "composer": "Johann Sebastian Bach",
+        "level": "Avançado",
+        "bpm": 72,
+        "description": "Obra extensa; trabalhe variações e mudanças harmônicas em seções.",
+    },
+    {
+        "id": "czardas",
+        "title": "Csárdás",
+        "composer": "Vittorio Monti",
+        "level": "Avançado",
+        "bpm": 132,
+        "description": "Contraste as seções lentas e rápidas; mantenha o andamento controlado.",
+    },
+    {
+        "id": "zigeunerweisen",
+        "title": "Zigeunerweisen, Op. 20",
+        "composer": "Pablo de Sarasate",
+        "level": "Avançado",
+        "bpm": 120,
+        "description": "Peça virtuosística para trabalhar agilidade, articulação e expressividade.",
+    },
+]
